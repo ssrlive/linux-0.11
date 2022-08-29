@@ -1,4 +1,7 @@
 ## Linux-0.11 ##
+
+源碼完全註釋
+
 ### RTFSC ###
 Linus曾经说过：RTFSC - Read The Fucking Source Code.
 
