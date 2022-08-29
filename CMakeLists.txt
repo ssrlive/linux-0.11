@@ -1,11 +1,18 @@
 project(linux)
 
 file(GLOB LINUX_SRC
+    "boot/*.s"
     "init/main.c"
     "fs/*.c"
-    "kernel/*/*.c"
+    "kernel/*.c"
+    "kernel/*.s"
+    "kernel/blk_drv/*.c"
+    "kernel/chr_drv/*.c"
+    "kernel/chr_drv/*.s"
+    "kernel/math/*.c"
     "lib/*.c"
     "mm/*.c"
+    "mm/*.s"
     "tools/build.c"
     )
 
